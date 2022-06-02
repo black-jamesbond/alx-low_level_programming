@@ -1,10 +1,13 @@
-#include<stdio.h>
-#include<stdio.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - entery
+ * main - use to return the integer value 1
  *
- * Return: 1
+ * Description: use to print to standard output in the main function
+ *
+ * Return: return the value 1
+ *
  */
 int main(void)
 {
