@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdio.>
+#include<stdio.h>
 
 /**
  * main - entery
