@@ -1,12 +1,13 @@
 #include<stdio.h>
-
 /**
  * main - all codes
- * Description: a program that prints alphabets in lowercase follwed by a line
  *
- * Return :0
+ * Description:A program that prints alphabets in lowercase follwed by a line
+ *
+ * Return: 0
  *
  */
+
 int main(void)
 {
 	char alphabets;
@@ -14,7 +15,7 @@ int main(void)
 
 	ch = '\n';
 
-	for (alphabets = 'a'; alphabets < 'z'; alphabets++)
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 	{
 		putchar(alphabets);
 	}
