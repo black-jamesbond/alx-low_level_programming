@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int a,b,c;
+	int a, b, c;
 
 	for (a = 0; a < 8; a++)
 	{
@@ -23,7 +23,7 @@ int main(void)
 				putchar((c % 10) + '0');
 
 				if (a == 7 && b == 8 && c == 9)
-					continue;
+				continue;
 				putchar(',');
 				putchar(' ');
 			}
