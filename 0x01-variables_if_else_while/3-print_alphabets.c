@@ -1,12 +1,13 @@
 #include<stdio.h>
-
 /**
- * main - all codes
+ * main- to check a condition
  *
- * Description : A program that prints alphabets in lowercase follwed by a line
+ * Description: it is copmoareting the code
  *
- * Return = 0
+ * Return: 0
+ *
  */
+
 int main(void)
 {
 	char alphabets;
