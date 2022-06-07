@@ -11,8 +11,8 @@ void print_alphabet(void)
 {
 	char a = 'a';
 	char term_x = 'z';
-	
-	while(a <= term_x)
+
+	while (a <= term_x)
 	{
 		_putchar(a);
 		a++;
