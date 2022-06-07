@@ -5,10 +5,16 @@
  * Return:Always 0.
  */
 
+
 int main(void)
 {
-	int a;
+	int r;
 
-	print_alphabet_x10();
+	r = _islower('a');
+	_putchar(r + '0');
+	r = _islower('A');
+	_putchar(r + '0');
+	r = _islower(43);
+	_putchar(r + '0');
 	return (0);
 }
