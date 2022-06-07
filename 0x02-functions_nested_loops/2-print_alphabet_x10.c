@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_aplhabet_x10- linsf
+ * print_alphabet_x10- linsf
  *
  * Description: lifhodf
  *
@@ -18,8 +18,8 @@ void print_alphabet_x10(void)
 
 		while (a <= term_x)
 		{
-
-			_putchar(a);									a++;
+			_putchar(a);
+			a++;
 		}
 		_putchar('\n');
 	}
