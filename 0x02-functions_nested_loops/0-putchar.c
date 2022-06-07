@@ -3,8 +3,8 @@
  * main- entry point
  *
  * Description: sgfsfgfgfsd
- * ret
  *
+ *Return: 0
  */
 
 int main(void)
