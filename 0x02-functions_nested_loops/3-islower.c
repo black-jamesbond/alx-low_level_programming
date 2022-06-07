@@ -1,26 +1,25 @@
 #include"main.h"
 #include <ctype.h>
 /**
- * islower- lsvnkbnsdk
- *
- * Description: nsndfljd
+ *_islower- lsvnkbnsdk
+ *@c: valuue to check.
+ * Description:it check the state of the number.
  *
  * Return: a number
  */
 
 int _islower(int c)
 {
-	char check;
+	char ch;
 
-	check = tolower(c);
-	if (c == check)
+	ch = tolower(c);
+	if (c == ch)
 	{
 		return (1);
 	}
-	if (c != check)
+	if (c != ch || c == 0 || c == 20)
 	{
 		return (0);
 	}
-	_putchar('\n');
 	return (0);
 }
