@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_sign- print out 
+ * print_sign- print out
  *
- * @n: value to check rhrn 
+ * @n: value to check rhrn
  *
  * Description: pritn
  *
