@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main- check the code
- *Description: shdfuhjsinkjd
+ * Description: to print all alphabets in lower case from a to z
  * Return:Always 0.
  */
 
