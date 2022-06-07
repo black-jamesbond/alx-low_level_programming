@@ -3,7 +3,9 @@
  * print_sign- print out 
  *
  * @n: value to check rhrn 
+ *
  * Description: pritn
+ *
  * Return: 0
  *
  */
@@ -27,4 +29,5 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
+	return (0);
 }
