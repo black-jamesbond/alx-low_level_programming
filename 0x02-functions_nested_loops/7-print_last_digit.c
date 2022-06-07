@@ -1,26 +1,30 @@
 #include "main.h"
+
 /**
- * print_last_digit- nksdnljkf
+ *print_last_digit - prints the last of a number
  *
- * @r: dfnglndfglkjsdfg
+ *@r: stores the last digit and goes through the condtional statements
  *
- * main- hoashfkghsdf
+ *main - evaluates last digit
  *
- * Return: ohdfinf
+ *Return: the value of the last digit
  */
+
 int print_last_digit(int r)
+
 {
-	int remain = r % 10;
+	int remainder = r % 10;
 
 	if (r < 0)
 	{
-		r =r * -1;
+		r = r * -1;
+
 		_putchar(r % 10 + '0');
 		return (r % 10);
 	}
 	else
 	{
-		_putchar(remain + '0');
+		_putchar(remainder + '0');
 		return (r % 10);
 	}
 }
