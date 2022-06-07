@@ -12,9 +12,9 @@ int main(void)
 
 	r = _islower('a');
 	_putchar(r + '0');
-	r = _islower('A');
+	r = _islower(20);
 	_putchar(r + '0');
-	r = _islower(43);
+	r = _islower(0);
 	_putchar(r + '0');
 	return (0);
 }
