@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * _strlen - calculate length of string
- * @s: parameter
+ * _puts - prints a string, followed by a new line.
+ * @str: parameter
  *
- * Return: length of string.
+ * Return: void.
  */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int myLen = strlen(s);
-
-	return (myLen);
+	puts(str);
 }
